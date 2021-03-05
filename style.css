@@ -1,0 +1,39 @@
+:root {
+    --primary-color-text: #000;
+    --secondary-color-text: #595959;
+    --primary-background-color-main: #fff;
+  }
+
+  [data-theme="dark"] {
+    --primary-color-text: #fff;
+    --secondary-color-text: #d9d9d9;
+    --primary-background-color-main: #121212;
+  }
+
+body {
+    background-color: var(--primary-background-color-main);
+}
+.container {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.container .switch {
+    display: flex;
+    justify-content: center;
+}
+.container .title {
+    color: var(--primary-color-text);
+}
+.container .subtitle {
+    color: var(--secondary-color-text);
+}
+
+.container .paragraph {
+    color: var(--primary-color-text);
+}
+
+.container .info {
+    font-size: 20px;
+    color: var(--primary-color-text);
+}
